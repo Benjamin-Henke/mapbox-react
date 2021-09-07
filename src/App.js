@@ -13,8 +13,10 @@ function App() {
     zoom: 10
   });
 
+  // sets the state of the park a user selects on the map via the image button
   const [selectedPark, setSelectedPark] = useState(null);
 
+  // allows user to use the Esc key to close the popup window on the map
   useEffect(() => {
     const listener = (e) => {
       if (e.key === "Escape") {
