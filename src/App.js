@@ -8,8 +8,8 @@ function App() {
   const [viewport, setViewport] = useState({
     latitude: 45.4211,
     longitude: -75.6903,
-    width: '75vw',
-    height: '75vh',
+    width: '100vw',
+    height: '100vh',
     zoom: 10
   });
 
@@ -33,7 +33,7 @@ function App() {
       <ReactMapGL 
         {...viewport} 
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
-        mapStyle="mapbox://styles/benjaminhenke/ckt8lfsjz0gyo17mmdvvx97rb"
+        mapStyle="mapbox://styles/benjaminhenke/ckt9yv86s206617lrq7jwlhk1"
         onViewportChange={viewport => {setViewport(viewport)}}
         >
         {parkData.features.map((park) => (

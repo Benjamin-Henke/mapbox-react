@@ -4,4 +4,4 @@ My Spike for my solo project is using Mapbox as my map api for users to view eve
 
 ## Proof of Concept
 
-This small project was a lesson taught by Leigh Halliday (https://www.youtube.com/watch?v=JJatzkPcmoI&t=271s). I did not fork his repo as I created the file from the beginning. Learning what is needed from the user for my database, I can use the concept learned here and apply them and customize them to fit into my project.
+This small project was a lesson taught by Leigh Halliday (https://www.youtube.com/watch?v=JJatzkPcmoI&t=271s) teaching the basics of Mapbox and how to use geocoding. I did not fork his repo as I created the file from the beginning. Learning what is needed from the user for my database, I can use the concepts learned here and apply them and customize them to fit into my project.
